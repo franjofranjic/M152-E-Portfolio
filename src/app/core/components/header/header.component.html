@@ -1,1 +1,21 @@
-<p>header works!</p>
+<header class="main-head p-shadow-4">
+  <p-menubar [model]="items">
+    <ng-template pTemplate="start">
+      <div class="p-text-bold p-mr-2">E-Portfolio</div>
+    </ng-template>
+    <ng-template pTemplate="end">
+      <div class="p-d-flex p-jc-center p-ai-center p-p-3">
+        <div class="p-d-inline">
+
+          <p-toggleButton
+            [ngModel]="isDark$ | async"
+            (onChange)="toggleTheme()"
+            onIcon="pi pi-sun"
+            offIcon="pi pi-moon"
+          >
+          </p-toggleButton>
+        </div>
+      </div>
+    </ng-template>
+  </p-menubar>
+</header>

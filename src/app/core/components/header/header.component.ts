@@ -1,15 +1,29 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import {Observable} from "rxjs";
+import {UiService} from "../../state/ui/ui.service";
+import {UiQuery} from "../../state/ui/ui.query";
+import {MenuItem} from "primeng/api";
+import {mainNavigation} from "./navigation";
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
+  items: MenuItem[];
 
-  constructor() { }
+  isDark$: Observable<boolean> = this.uiQuery.selectIsDark();
 
-  ngOnInit(): void {
+  constructor(
+    private uiQuery: UiQuery,
+    private uiService: UiService,
+  ) {
+    this.items = mainNavigation;
+  }
+
+  toggleTheme(): void {
+    this.uiService.toggleTheme();
   }
 
 }
