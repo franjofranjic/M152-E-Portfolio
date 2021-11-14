@@ -33,6 +33,8 @@ import { TooltipModule } from 'primeng/tooltip';
 import { TreeModule } from 'primeng/tree';
 import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
 import { VirtualScrollerModule } from 'primeng/virtualscroller';
+import {CarouselModule} from 'primeng/carousel';
+import {GalleriaModule} from 'primeng/galleria';
 
 export const modules = [
   DropdownModule,
@@ -72,5 +74,7 @@ export const modules = [
   OverlayPanelModule,
   TriStateCheckboxModule,
   ConfirmPopupModule,
-  TooltipModule
+  TooltipModule,
+  CarouselModule,
+  GalleriaModule,
 ];

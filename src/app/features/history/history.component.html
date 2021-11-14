@@ -1,0 +1,22 @@
+<p-carousel [value]="carouselItems" styleClass="custom-carousel" [numVisible]="3"
+            [numScroll]="1" [circular]="true" [autoplayInterval]="3000"
+            [responsiveOptions]="responsiveOptions">
+  <ng-template pTemplate="header"></ng-template>
+  <ng-template let-product pTemplate="item">
+    <div class="product-item">
+      <div class="product-item-content">
+        <div class="p-mb-3">
+          <img src="{{product.image}}" [width]="300"/>
+        </div>
+        <div>
+          <h4 class="p-mb-1">{{product.name}}</h4>
+          <p>{{product.description}}</p>
+          <p>Lorem Ipsum 1</p>
+          <p>Lorem Ipsum 2</p>
+          <p>Lorem Ipsum 3</p>
+          <p>Lorem Ipsum 4</p>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</p-carousel>

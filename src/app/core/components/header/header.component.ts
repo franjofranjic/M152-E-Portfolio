@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import {Observable} from "rxjs";
-import {UiService} from "../../state/ui/ui.service";
-import {UiQuery} from "../../state/ui/ui.query";
-import {MenuItem} from "primeng/api";
-import {mainNavigation} from "./navigation";
+import {UiService} from '../../state/ui/ui.service';
+import {UiQuery} from '../../state/ui/ui.query';
+import {MenuItem} from 'primeng/api';
+import {mainNavigation} from './navigation';
 
 @Component({
   selector: 'app-header',
@@ -12,8 +11,6 @@ import {mainNavigation} from "./navigation";
 })
 export class HeaderComponent {
   items: MenuItem[];
-
-  isDark$: Observable<boolean> = this.uiQuery.selectIsDark();
 
   constructor(
     private uiQuery: UiQuery,

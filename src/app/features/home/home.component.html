@@ -1,0 +1,9 @@
+<div style="margin-bottom: 50px;">
+  <p-galleria [value]="images" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '100vw'}" [numVisible]="5" [circular]="true"
+              [autoPlay]="true" [transitionInterval]="2000"
+              [showThumbnails]="false" [showIndicators]="true" [changeItemOnIndicatorHover]="true" [showIndicatorsOnItem]="true">
+    <ng-template pTemplate="item" let-item>
+      <img [src]="item.previewImageSrc" style="width: 100%; display: block;"/>
+    </ng-template>
+  </p-galleria>
+</div>

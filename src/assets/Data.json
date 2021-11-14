@@ -1,0 +1,18 @@
+{
+  "data":[
+    {
+      "previewImageSrc": "assets/images/galleria/dummy_Bild.png",
+      "thumbnailImageSrc": "assets/images/galleria/dummy_Bild.png",
+      "alt": "Description for Image 1",
+      "title": "Bild 1"
+    },
+    {
+      "previewImageSrc": "assets/images/galleria/dummy_Bild.png",
+      "thumbnailImageSrc": "assets/images/galleria/dummy_Bild.png",
+      "alt": "Description for Image 2",
+      "title": "Bild 2"
+    }
+  ]
+}
+
+

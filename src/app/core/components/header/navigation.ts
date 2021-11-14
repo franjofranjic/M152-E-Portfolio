@@ -2,23 +2,21 @@ import {MenuItem} from 'primeng/api';
 
 export const mainNavigation: MenuItem[] = [
   {
-    label: 'Dashboard',
-    icon: 'pi pi-fw pi-home',
-    routerLink: 'dashboard'
+    label: 'home',
+    icon: 'pi pi-fw pi-images',
+    routerLink: '.',
+    fragment: 'home'
   },
   {
-    label: 'Kunden',
-    icon: 'pi pi-fw pi-users',
-    routerLink: 'clients'
+    label: 'Die Uhr',
+    icon: 'pi pi-fw pi-clock',
+    routerLink: '.',
+    fragment: 'video'
   },
   {
-    label: 'Produkte',
-    icon: 'pi pi-fw pi-users',
-    routerLink: 'products'
-  },
-  {
-    label: 'Einkauf/Verkauf',
-    icon: 'pi pi-fw pi-users',
-    routerLink: 'sales'
+    label: 'Facts & Figures',
+    icon: 'pi pi-fw pi-chart-line',
+    routerLink: '.',
+    fragment: 'history'
   }
 ];

@@ -1,0 +1,22 @@
+footer {
+  background-color: #C40D2E;
+  color: white;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+html {
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  align-content: center;
+}
