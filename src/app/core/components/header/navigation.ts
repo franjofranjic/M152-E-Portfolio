@@ -5,7 +5,8 @@ export const mainNavigation: MenuItem[] = [
     label: 'home',
     icon: 'pi pi-fw pi-images',
     routerLink: '.',
-    fragment: 'home'
+    fragment: 'home',
+    style: 'color: white'
   },
   {
     label: 'Die Uhr',

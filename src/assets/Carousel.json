@@ -24,31 +24,6 @@
       "name": "Bracelet",
       "description": "Product Description",
       "image": "assets/images/galleria/horizontal_1_500px.png"
-    },
-    {
-      "name": "Brown Purse",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
-    },
-    {
-      "name": "Chakra Bracelet",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
-    },
-    {
-      "name": "Galaxy Earrings",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
-    },
-    {
-      "name": "Game Controller",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
-    },
-    {
-      "name": "Gaming Set",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
     }
   ]
 }
