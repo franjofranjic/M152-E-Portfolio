@@ -2,21 +2,18 @@ import {MenuItem} from 'primeng/api';
 
 export const mainNavigation: MenuItem[] = [
   {
-    label: 'home',
-    icon: 'pi pi-fw pi-images',
+    label: 'Home',
     routerLink: '.',
     fragment: 'home',
     style: 'color: white'
   },
   {
-    label: 'Die Uhr',
-    icon: 'pi pi-fw pi-clock',
+    label: 'The Watch',
     routerLink: '.',
     fragment: 'video'
   },
   {
     label: 'Facts & Figures',
-    icon: 'pi pi-fw pi-chart-line',
     routerLink: '.',
     fragment: 'history'
   }

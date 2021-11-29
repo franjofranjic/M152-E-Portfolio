@@ -1,20 +1,35 @@
-.container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-}
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.section.two {
+  background: none;
 }
 
-iframe {
+.sleep-video {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: -20;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  position: relative;
+  background-color: white;
+  z-index: 2;
+  background: none;
+}
+
+.section.one {
+  height: 500px;
+  background: white;
+}
+
+h2 {
+  margin: 0;
+  color: #C40D2E;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 500px;
 }

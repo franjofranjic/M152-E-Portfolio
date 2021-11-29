@@ -1,10 +1,10 @@
 <header class="main-head p-shadow-4" style="z-index: 100">
-  <p-menubar [model]="items" [style]="{'background-color': 'black', 'opacity': '60%', 'color': 'white',
+  <p-menubar [model]="items" [style]="{'background-color': 'black', 'opacity': '60%',
     'position': 'absolute',
     'z-index': '1',
     'background': 'transparent',
     'width': '100%',
-    'border': 'none'}">
+    'border': 'none'}" styleClass="header">
     <ng-template pTemplate="start">
       <div class="p-text-bold p-mr-2">
       </div>
@@ -13,11 +13,10 @@
     <ng-template pTemplate="end">
       <div class="p-d-flex p-jc-center p-ai-center p-p-3">
         <div class="p-d-inline">
-          <img [src]="'assets/images/logos/Logo-Schwarz.png'" [height]="150"/>
+          <img [src]="'assets/images/logos/Logo-Weiss.png'" [height]="150"/>
         </div>
       </div>
     </ng-template>
   </p-menubar>
 </header>
-
 

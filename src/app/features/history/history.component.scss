@@ -13,6 +13,23 @@
   }
 }
 
-//.p-carousel-indicators .p-carousel-indicator.p-highlight button {
-//  background-color: #C40D2E !important;
-//}
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: #C40D2E;
+}
+
+.p-link button {
+  background-color: #C40D2E;
+}
+
+.description {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  left: 50%;
+}
+.section {
+  background: white;
+  padding: 70px;
+}
