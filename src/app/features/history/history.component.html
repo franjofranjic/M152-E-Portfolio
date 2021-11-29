@@ -1,18 +1,16 @@
 <div class="section">
-  <p-carousel [value]="carouselItems" styleClass="custom-carousel" [numVisible]="3"
-              [numScroll]="1" [circular]="true" [autoplayInterval]="3000"
-              [responsiveOptions]="responsiveOptions">
+  <p-carousel [value]="carouselItems" styleClass="custom-carousel" [numVisible]="1"
+              [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
     <ng-template pTemplate="header"></ng-template>
     <ng-template let-product pTemplate="item">
       <div class="product-item">
         <div class="product-item-content">
-          <div class="p-mb-3">
-            <img src="{{product.image}}" [width]="300"/>
-          </div>
-          <div class="description">
-            <p style="text-align: justify; color: #C40D2E"><i class="pi pi-moon"></i> Wasserdicht</p>
-            <p style="text-align: justify; color: #C40D2E"><i class="pi pi-moon"></i> Stossfestigkeit</p>
-            <p style="text-align: justify; color: #C40D2E"><i class="pi pi-moon"></i> Haltbarkeit</p>
+          <div class="p-mb-3 content">
+            <img src="{{product.image}}" class="product-image" [width]="50"/>
+            <div class="description">
+              <h3>Die Wasserdichte</h3>
+              <p style="text-align: center; color: #C40D2E">Wasserdichtes Lorem Ipsum</p>
+            </div>
           </div>
         </div>
       </div>

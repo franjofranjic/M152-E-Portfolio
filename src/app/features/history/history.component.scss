@@ -1,20 +1,29 @@
 .product-item {
+
+  //width: 75vw;
+
   .product-item-content {
     border: 1px solid var(--surface-d);
     border-radius: 3px;
     margin: .3rem;
     text-align: center;
-    padding: 2rem 0;
+    background-color: gainsboro;
   }
 
   .product-image {
     width: 50%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+    height: 50%;
+    //box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
   }
 }
 
-.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
   background-color: #C40D2E;
+}
+
+::ng-deep .p-carousel {
+  width: 80vw;
+  margin: 0;
 }
 
 .p-link button {
@@ -22,8 +31,12 @@
 }
 
 .description {
-  padding-left: 50px;
-  padding-right: 50px;
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 p {
@@ -32,4 +45,11 @@ p {
 .section {
   background: white;
   padding: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
 }
