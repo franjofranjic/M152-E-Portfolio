@@ -1,24 +1,13 @@
 {
   "data": [
     {
-      "previewImageSrc": "assets/images/galleria/Omega_Speedmaster_1.jpeg",
-      "thumbnailImageSrc": "assets/images/galleria/Omega_Speedmaster_1.jpeg",
-      "alt": "Description for Image 1",
-      "title": "Bild 1"
+      "previewImageSrc": "assets/images/galleria/header/Bild_1_Header.jpg"
     },
     {
-      "previewImageSrc": "assets/images/galleria/Omega_Speedmaster_2.jpeg",
-      "thumbnailImageSrc": "assets/images/galleria/Omega_Speedmaster_2.jpeg",
-      "alt": "Description for Image 2",
-      "title": "Bild 2"
+      "previewImageSrc": "assets/images/galleria/header/Bild_2_Header.jpg"
     },
     {
-      "previewImageSrc": "assets/images/galleria/Omega_Speedmaster_3.jpeg",
-      "thumbnailImageSrc": "assets/images/galleria/Omega_Speedmaster_3.jpeg",
-      "alt": "Description for Image 2",
-      "title": "Bild 2"
+      "previewImageSrc": "assets/images/galleria/header/Bild_3_Header.jpg"
     }
   ]
 }
-
-

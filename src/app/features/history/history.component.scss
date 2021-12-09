@@ -13,7 +13,10 @@
   .product-image {
     width: 50%;
     height: 50%;
-    //box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+    cursor: pointer;
+  }
+  .product-image:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
   }
 }
 
@@ -21,12 +24,20 @@
   background-color: #C40D2E;
 }
 
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button:focus {
+  background-color: #C40D2E;
+}
+
+
 ::ng-deep .p-carousel {
-  width: 80vw;
-  margin: 0;
+  width: 70vw;
 }
 
 .p-link button {
+  background-color: #C40D2E;
+}
+
+.p-link button:focus {
   background-color: #C40D2E;
 }
 
@@ -41,6 +52,7 @@
 
 p {
   left: 50%;
+  text-align: center;
 }
 .section {
   background: white;
@@ -52,4 +64,41 @@ p {
 .content {
   display: flex;
   flex-direction: row;
+}
+
+.modal-images {
+  display: flex;
+}
+
+.modal-images img {
+  width: 50%;
+}
+
+h2 {
+  color: #C40D2E;
+}
+
+//.video {
+//  position: relative;
+//  padding-bottom: 56.25%;
+//  padding-top: 0;
+//  height: 0;
+//  overflow: hidden;
+//  width: 50vw;
+//  height: 50vh;
+//}
+
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

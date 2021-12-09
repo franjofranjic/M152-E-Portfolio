@@ -1,14 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Carousel} from '../interfaces/carousel';
-
-interface Image {
-  previewImageSrc: string;
-  thumbnailImageSrc: string;
-  alt: string;
-  title: string;
-}
-
+import {Image} from '../interfaces/image';
 
 @Injectable({
   providedIn: 'root'

@@ -1,15 +1,16 @@
 <div class="section">
-  <p-carousel [value]="carouselItems" styleClass="custom-carousel" [numVisible]="1"
-              [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
+  <p-carousel [value]="carouselItems" styleClass="custom-carousel"
+              [numVisible]="1" [numScroll]="1"
+              [circular]="true" [autoplayInterval]="3000">
     <ng-template pTemplate="header"></ng-template>
     <ng-template let-product pTemplate="item">
       <div class="product-item">
         <div class="product-item-content">
           <div class="p-mb-3 content">
-            <img src="{{product.image}}" class="product-image" [width]="50"/>
-            <div class="description">
-              <h3>Die Wasserdichte</h3>
-              <p style="text-align: center; color: #C40D2E">Wasserdichtes Lorem Ipsum</p>
+            <img src="{{product.image}}" class="product-image" [width]="50" (click)="showDialog(product)"/>
+            <div class="description" [attr.id]='"history"'>
+              <h2>{{product.title}}</h2>
+              <p>{{product.description}}</p>
             </div>
           </div>
         </div>
@@ -17,3 +18,17 @@
     </ng-template>
   </p-carousel>
 </div>
+
+<p-dialog
+  [(visible)]="displayDialog" [modal]="true"
+  [style]="{ width: '50vw' }" [maximizable]="false"
+  [baseZIndex]="10000" [draggable]="false"
+  [resizable]="false">
+  <div class="modal-images" *ngIf="openItem.title !== 'Video'">
+    <img src="{{openItem.image_pre}}"/>
+    <img src="{{openItem.image}}"/>
+  </div>
+  <div *ngIf="openItem.title === 'Video'" class="video">
+    <iframe src="https://www.youtube.com/embed/f-9D4Q0oqD4?autoplay=1&loop=1&controls=0&hd=1&playlist=f-9D4Q0oqD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</p-dialog>

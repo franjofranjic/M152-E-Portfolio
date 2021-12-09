@@ -15,6 +15,6 @@ import {HistoryComponent} from './history.component';
   exports: [
     HistoryComponent,
   ],
-  bootstrap: []
+  bootstrap: [],
 })
 export class HistoryModule { }

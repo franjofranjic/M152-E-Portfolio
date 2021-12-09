@@ -10,6 +10,8 @@ import {Carousel} from '../../shared/interfaces/carousel';
 export class HistoryComponent implements OnInit {
 
   carouselItems: Carousel[] = [];
+  displayDialog = false;
+  openItem: Carousel = {};
 
   constructor(private photoService: PhotoService) {
   }
@@ -17,7 +19,11 @@ export class HistoryComponent implements OnInit {
   ngOnInit(): void {
     this.photoService.getCarouselItems().then(items => {
       this.carouselItems = items;
-      console.log(this.carouselItems);
     });
+  }
+
+  showDialog(product: Carousel): void {
+    this.openItem = product;
+    this.displayDialog = true;
   }
 }

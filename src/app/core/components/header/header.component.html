@@ -1,8 +1,8 @@
 <header class="main-head p-shadow-4" style="z-index: 100">
-  <p-menubar [model]="items" [style]="{'background-color': 'black', 'opacity': '60%',
+  <p-menubar [model]="items" [style]="{
+    'background-color': 'rgba(0, 0, 0, 0.8)',
     'position': 'absolute',
     'z-index': '1',
-    'background': 'transparent',
     'width': '100%',
     'border': 'none'}" styleClass="header">
     <ng-template pTemplate="start">
@@ -13,10 +13,9 @@
     <ng-template pTemplate="end">
       <div class="p-d-flex p-jc-center p-ai-center p-p-3">
         <div class="p-d-inline">
-          <img [src]="'assets/images/logos/Logo-Weiss.png'" [height]="150"/>
+          <embed src="assets/images/logos/Logo-Weiss-2.svg" [width]="'75vw'" [height]="'75vh'" />
         </div>
       </div>
     </ng-template>
   </p-menubar>
 </header>
-

@@ -1,29 +1,34 @@
 {
   "data": [
     {
-      "name": "Bamboo Watch",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
+      "title": "Wasserdichtigkeit",
+      "description": "Die Uhr ist noch bei einer Tiefe von 50m funktionsfähig",
+      "image": "assets/images/galleria/bearbeitet/Bild_1.jpg",
+      "image_pre": "assets/images/galleria/unbearbeitet/Bild_1_unbearbeitet.jpg"
     },
     {
-      "name": "Black Watch",
-      "description": "",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
+      "title": "Stossfestigkeit",
+      "description": "Die Uhr ist noch bei einer Tiefe von 50m funktionsfähig",
+      "image": "assets/images/galleria/bearbeitet/Bild_2.jpg",
+      "image_pre": "assets/images/galleria/unbearbeitet/Bild_2_unbearbeitet.jpg"
     },
     {
-      "name": "Blue Band",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
+      "title": "Haltbarkeit",
+      "description": "Die Uhr ist noch bei einer Tiefe von 50m funktionsfähig",
+      "image": "assets/images/galleria/bearbeitet/Bild_3.jpg",
+      "image_pre": "assets/images/galleria/unbearbeitet/Bild_3_unbearbeitet.jpg"
     },
     {
-      "name": "Blue T-Shirt",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
+      "title": "Antimagnetisch",
+      "description": "Die Uhr ist noch bei einer Tiefe von 50m funktionsfähig",
+      "image": "assets/images/galleria/bearbeitet/Bild_4.jpg",
+      "image_pre": "assets/images/galleria/unbearbeitet/Bild_4_unbearbeitet.jpg"
     },
     {
-      "name": "Bracelet",
-      "description": "Product Description",
-      "image": "assets/images/galleria/horizontal_1_500px.png"
+      "title": "Video",
+      "description": "auf das Bild klicken, um das Video zu öffnen",
+      "image": "assets/images/galleria/bearbeitet/Bild_5.jpg",
+      "image_pre": ""
     }
   ]
 }

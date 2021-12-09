@@ -1,5 +1,6 @@
 export interface Carousel {
   image?: string;
-  name?: string;
+  image_pre?: string;
+  title?: string;
   description?: string;
 }

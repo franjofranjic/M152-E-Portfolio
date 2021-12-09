@@ -4,8 +4,7 @@ export const mainNavigation: MenuItem[] = [
   {
     label: 'Home',
     routerLink: '.',
-    fragment: 'home',
-    style: 'color: white'
+    fragment: 'home'
   },
   {
     label: 'The Watch',

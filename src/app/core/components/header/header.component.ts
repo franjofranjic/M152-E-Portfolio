@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import {UiService} from '../../state/ui/ui.service';
-import {UiQuery} from '../../state/ui/ui.query';
 import {MenuItem} from 'primeng/api';
 import {mainNavigation} from './navigation';
 
@@ -12,15 +10,7 @@ import {mainNavigation} from './navigation';
 export class HeaderComponent {
   items: MenuItem[];
 
-  constructor(
-    private uiQuery: UiQuery,
-    private uiService: UiService,
-  ) {
+  constructor() {
     this.items = mainNavigation;
   }
-
-  toggleTheme(): void {
-    this.uiService.toggleTheme();
-  }
-
 }
