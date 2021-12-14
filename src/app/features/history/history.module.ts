@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import {SharedModule} from '../../shared/shared.module';
-import {HistoryRoutingModule} from './history-routing.module';
 import {HistoryComponent} from './history.component';
 
 @NgModule({
@@ -8,7 +7,6 @@ import {HistoryComponent} from './history.component';
     HistoryComponent
   ],
   imports: [
-    HistoryRoutingModule,
     SharedModule,
   ],
   providers: [],

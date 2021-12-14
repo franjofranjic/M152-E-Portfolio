@@ -8,8 +8,8 @@
           <div class="p-mb-3 content">
             <img src="{{product.image}}" class="product-image" [width]="50" (click)="showDialog(product)"/>
             <div class="description" [attr.id]='"history"'>
-              <h3 class="Carousel_Title">{{product.title}}</h3>
-              <p>{{product.description}}</p>
+              <h4 class="p-mb-1 Carousel_Title">{{ product.title }}</h4>
+              <h6 class="p-mt-0 p-mb-3">{{ product.description }}</h6>
             </div>
           </div>
         </div>
